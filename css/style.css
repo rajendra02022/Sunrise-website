@@ -141,6 +141,12 @@ section:nth-child(even){
 }
 /* Home Section End */
 
+.carousel-item img {
+    width: 500px; /* Desired width */
+    height: 300px; /* Desired height */
+    object-fit: cover; /* Ensures the images are cropped to fit the container */
+  }
+
 /* icons section starts */
 .icons-container{
     display: grid;
